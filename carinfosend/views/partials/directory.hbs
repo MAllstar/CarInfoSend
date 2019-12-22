@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="stylesheets/directory.css" />
+<div id='directory' style="display: none;">
+    {{!-- 标题栏 --}}
+    <div class="top">
+        <header>
+            <h1>车联网信息分发后台管理</h1>
+            <div class="rightUser">
+                <img src="images/people.png">
+                <label>用户名 </label>
+            </div>
+        </header>
+    </div>
+    <div class="sider">
+        <h2><img src="images/logo.png">Internet of Vehicles</h2>
+        <ul>
+            <li class="firstLi"><img src="images/data.png">数据统计</li>
+            <li><img src="images/manger.png"><span id='formInfo'>表格信息</span></li>
+            <ul id='formDetial' style="display: none;">
+                <li>路测单元</li>
+                <li>车辆管理</li>
+                <li>信息分发</li>
+            </ul>
+            <li><a href='#'><img src="images/share.png">模拟平台</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+    //点击表格信息出现下面3个选项
+    $("#formInfo").click(function () {
+        if ($('#formDetial').css('display') == 'none') {
+            $('#formDetial').css('display', 'block');
+        }
+        else {
+            $('#formDetial').css('display', 'none');
+        }
+    })
+    //点击侧边导航栏变色
+    $(".sider ul li").click(function (e) {
+        $(".sider ul li").css('border-right', '3px solid white');
+        $(this).css('border-right', '3px solid #41b3f9');
+    })
+</script>
