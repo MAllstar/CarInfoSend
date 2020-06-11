@@ -1041,7 +1041,7 @@ a[name="top"] {
 }
 
 #myPageTop {
-    width: 980px;
+    width: 100%;
     background: #FFF;
     margin: 10px auto;
     padding: 0 0 10px 10px;
