@@ -67,12 +67,12 @@ label {
     color: #34495E;
     font-size: 17px;
     font-weight: 700;
-    margin-left: -700px;
+    margin-left: -255px;
     padding-top: 30px;
 }
 
 form input {
-    margin-left: -447px;
+    /* margin-left: -447px; */
     width: 350px;
     height: 23px;
     margin-top: 5px;
@@ -88,7 +88,6 @@ form input {
     cursor: pointer;
     width: 130px;
     height: auto;
-    margin-left: -505px;
 }
 
 .btn2 {
@@ -104,10 +103,13 @@ form input {
     margin-left: -300px;
 }
 
+.regist-form {
+    clear: both;
+}
 .divLeft {
-    float: left;
-    width: 800px;
-    margin-left: 500px;
+    /* float: left; */
+    /* width: 800px; */
+    /* margin-left: 500px; */
 }
 
 .divRight {
@@ -142,7 +144,7 @@ form input {
 
 .foot {
     margin-top: 520px;
-    height: 90px;
+    /* height: 90px; */
     background: #2D3E50;
 }
 
@@ -164,7 +166,7 @@ form input {
         display: none;
     }
     .divLeft {
-        margin-left: 100px;
+        /* margin-left: 100px; */
     }
     .divRight {
         display: none;
