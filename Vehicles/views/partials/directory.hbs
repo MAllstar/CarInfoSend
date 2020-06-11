@@ -36,14 +36,14 @@
                                             </svg>
                                         </span>个人信息</a>
                                 </li>
-                                <li><a href="#" onclick="dian()"><span style="vertical-align:sub"><svg t="1577158651771"
+                                {{!-- <li><a href="#" onclick="dian()"><span style="vertical-align:sub"><svg t="1577158651771"
                                                 class="icon" viewBox="0 0 1024 1024" version="1.1"
                                                 xmlns="http://www.w3.org/2000/svg" p-id="3100" width="20" height="20">
                                                 <path
                                                     d="M899.2 169.024c21.312 21.312 32.256 47.68 32.832 79.168v498.752c-0.576 31.488-11.52 57.728-32.832 78.72-21.312 20.992-47.68 32.064-79.168 33.28h-560l-128.64 112c-5.824 5.248-12.096 7.872-18.816 7.872s-11.84-2.624-15.296-7.872c-2.368-2.944-3.776-5.824-4.352-8.768-0.576-2.944-0.896-5.824-0.896-8.768V248.192c0.576-31.488 11.52-57.856 32.832-79.168s47.68-32.256 79.168-32.832h616c31.488 0.576 57.856 11.52 79.168 32.832z m-157.952 265.984c11.072-9.6 16.64-21.568 16.64-35.904 0-14.272-4.672-26.112-14.016-35.456s-21.312-14.272-35.904-14.848H321.28c-14.016 0.576-25.792 5.568-35.456 14.848-9.6 9.344-14.464 21.12-14.464 35.456 0 14.272 4.8 26.24 14.464 35.904s21.44 14.464 35.456 14.464h381.504c14.528-0.064 27.392-4.864 38.464-14.464z m0 185.024c11.072-9.344 16.64-21.312 16.64-35.904 0-14.592-4.672-26.56-14.016-35.904s-21.312-14.272-35.904-14.848H321.28c-14.016 0.576-25.792 5.568-35.456 14.848-9.6 9.344-14.464 21.312-14.464 35.904 0 14.592 4.8 26.56 14.464 35.904 9.6 9.344 21.44 14.272 35.456 14.848h381.504c14.528-0.512 27.392-5.504 38.464-14.848z"
                                                     p-id="3101"></path>
                                             </svg>
-                                        </span>建议留言</a></li>
+                                        </span>建议留言</a></li> --}}
                                 <li><a href="/"><span style="vertical-align:sub"><svg t="1577158903928" class="icon"
                                                 viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                                 p-id="6012" width="20" height="20">
@@ -81,7 +81,7 @@
     </div>
 
     {{!-- 意见留言弹窗 --}}
-    <div class="idBig" id='idBig'>
+    {{!-- <div class="idBig" id='idBig'>
         <div class="idMid">
             <div id="idSma">
                 <label>建议留言页</label>
@@ -95,7 +95,7 @@
                 <button id="configureID">确认提交</button>
             </div>
         </div>
-    </div>
+    </div> --}}
    
     <div class="sider" id="sider">
         <h2 class="tip"><img src="images/logo.png">Internet of Vehicles</h2>
@@ -108,7 +108,7 @@
                 <a href="/msgSend"><li class="msg">信息分发</li></a>
             </ul>
             <a href='/map'><li class="map"><img src="images/map.png">地图显示</li></a>
-            <a href='/imitate'><li class="imitate"><img src="images/share.png">模拟平台</li></a>
+            {{!-- <a href='/imitate'><li class="imitate"><img src="images/share.png">模拟平台</li></a> --}}
             <a href="/userMeneger"><li class="user"><svg t="1577012693859" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3605" width="24" height="24"><path d="M512 608a96 96 0 1 1 0-192 96 96 0 0 1 0 192m0-256c-88.224 0-160 71.776-160 160s71.776 160 160 160 160-71.776 160-160-71.776-160-160-160" fill="#000000" p-id="3606"></path><path d="M512 800c-212.064 0-384-256-384-288s171.936-288 384-288 384 256 384 288-171.936 288-384 288m0-640C265.248 160 64 443.008 64 512c0 68.992 201.248 352 448 352s448-283.008 448-352c0-68.992-201.248-352-448-352" fill="#54667A" p-id="3607"></path></svg>用户管理</li></a>
         </ul>
     </div>
@@ -123,7 +123,7 @@
                 <a href="/msgSend"><li class="msg">信息分发</li></a>
             </ul>
             <a href='/map'><li class="map"><img src="images/map.png">地图显示</li></a>
-            <a href='/imitate'><li class="imitate"><img src="images/share.png">模拟平台</li></a>
+            {{!-- <a href='/imitate'><li class="imitate"><img src="images/share.png">模拟平台</li></a> --}}
             <a href="/userMeneger"><li class="user"><svg t="1577012693859" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3605" width="24" height="24"><path d="M512 608a96 96 0 1 1 0-192 96 96 0 0 1 0 192m0-256c-88.224 0-160 71.776-160 160s71.776 160 160 160 160-71.776 160-160-71.776-160-160-160" fill="#000000" p-id="3606"></path><path d="M512 800c-212.064 0-384-256-384-288s171.936-288 384-288 384 256 384 288-171.936 288-384 288m0-640C265.248 160 64 443.008 64 512c0 68.992 201.248 352 448 352s448-283.008 448-352c0-68.992-201.248-352-448-352" fill="#54667A" p-id="3607"></path></svg>用户管理</li></a>
         </ul>
     </div>
@@ -189,7 +189,7 @@
             })
     });
 
-    //留言弹窗消失和显示
+    {{!-- //留言弹窗消失和显示
     document.getElementById('idBig').style.display = "none";
     function dian() {
         document.getElementById('idBig').style.display = "";
@@ -197,7 +197,7 @@
     function hidd() {
         document.getElementById('idBig').style.display = "none";
         $(".thisClear").val("");
-    }
+    } --}}
 
     //确认提交按钮事件
     $("#configureID").click(function () {
